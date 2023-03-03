@@ -1,0 +1,31 @@
+.boton-terciario {
+    color:blueviolet;
+}
+
+/*Selector de clase*/
+.boton-terciario {
+    color: aqua
+}
+
+/*Selector de elemento*/ 
+button {
+    color: brown;
+}
+
+/* Selector de ID -> unico*/
+#boton-unico {
+    background-color: blue;
+    border: none;
+    cursor: all-scroll
+}
+
+/* Hover */
+#boton-unico:hover {
+    background-color:bisque;
+  }
+  
+  /* Aqui el background no lo hace por prioridad */
+  .boton-unico-clase {
+    background-color: rgb(30, 30, 61);
+    width: 200px;
+  }
