@@ -37,3 +37,14 @@ li {
     padding: 5px 10px 10px 1px;
 }
 
+#info-icon {
+    display: block;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    background-color: rgb(94, 158, 255);
+    line-height: 14px;
+}
