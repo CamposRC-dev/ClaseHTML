@@ -1,4 +1,4 @@
-.Caja-Madre {
+.caja-Madre {
     color: white;
     background-color: #1b1b1b;
     border-radius: 5px;
@@ -8,19 +8,19 @@
 
 }
 
-.Caja-1 {
+.caja-1 {
     width: 600px;
     height: 200px;
     padding: 1px 10px 50px 15px;
 }
 
-.Caja-2 {
+.caja-2 {
     width: 600;
     height: 200;
     padding: 1px 10px 50px 15px;
 }
 
-#Nota {
+#cota {
     width: 600px;
     height: 110px;
     border-radius: 5px;
@@ -37,3 +37,14 @@ li {
     padding: 5px 10px 10px 1px;
 }
 
+#info-icon {
+    display: block;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    background-color: rgb(94, 158, 255);
+    line-height: 14px;
+}
