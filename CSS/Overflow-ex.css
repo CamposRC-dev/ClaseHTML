@@ -1,0 +1,25 @@
+body {
+    background-color: #1b1b1b;
+    color: aliceblue;
+}
+#image {
+    padding: 20px;
+}
+img {
+    height: 350px;
+    width: 500px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: blueviolet;
+}
+#container {
+    background-color: aqua;
+    overflow: scroll;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: 5px;
+    color: black;
+    width: 500px;
+    max-height: 300px;
+
+}
