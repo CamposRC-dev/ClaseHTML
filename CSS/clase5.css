@@ -1,0 +1,40 @@
+.container {
+    padding: 10px;
+    background-color: rgb(101, 101, 241);
+    display: flex;
+    /* va en el papa */
+    /* - Direcciones de flex -
+      1.flex-direction
+      2.justify-content (cambia si cambias el flex-direction)
+      3.align-content
+      * ROW -> by default
+      * COLUMN
+    */
+    flex-direction: row;
+    /* esta por defecto */
+    justify-content: space-evenly;
+    height: 1200px;
+    align-items: center;
+}
+
+.box {
+    margin: 0px 10px;
+    border: 2px solid greenyellow;
+    background-color: rgb(208, 203, 203);
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.big-box {
+    display: flex;
+    justify-content: center;
+}
+
+.small-box {
+    border: 1px solid greenyellow;
+    background-color: rgb(191, 29, 29);
+    color: black;
+    width: 20px;
+    height: 20px;
+}
