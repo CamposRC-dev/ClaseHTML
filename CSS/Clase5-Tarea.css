@@ -65,7 +65,6 @@ body {
 
 #header {
     display: flex;
-    justify-content: flex-start;
     padding: 30px;
     width: 100%;
 }
@@ -84,16 +83,16 @@ body {
 
 }
 
-#select:hover {
+.select:hover {
     background-color: white;
     color: #0f0f0f;
 }
 
 #content {
     display: flex;
-    flex-direction: row;
     padding: 0px 70px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 img {
@@ -113,7 +112,6 @@ img {
     color: white;
     font-family: Roboto, Arial, sans-serif;
     display: flex;
-    flex-direction: row;
     margin: 8px;
 }
 
