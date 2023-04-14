@@ -1,0 +1,109 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-family: 'Lucida Handwriting', cursive;
+    text-align: center;
+}
+h2{
+    font-family: 'Lucida Handwriting', cursive;
+    text-align: center; 
+}
+img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+span {
+    font-family: Papyrus, fantasy;
+}
+
+ul {
+    font-family: Papyrus, fantasy;
+}
+
+section {
+    font-family: Papyrus, fantasy;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    #homecoming {
+        padding: 10px;
+        margin: 10px;
+        border: 5px;
+        max-height: 300px;
+        overflow: scroll;
+    }
+
+    #description {
+        display: none;
+    }
+
+    #houses {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    #homecoming {
+        padding: 10px;
+        margin: 10px;
+        border: 5px;
+        max-height: 300px;
+        overflow: scroll;
+        border-style: inset;
+        border-color: crimson;
+        border-radius: 5px;
+    }
+
+    #description {
+        padding: 10px;
+        margin: 10px;
+        border: 5px;
+    }
+
+    img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #houses {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    #homecoming {
+        padding: 10px;
+        margin: 10px;
+        border: 5px;
+    }
+
+    #description {
+        padding: 10px;
+        margin: 10px;
+        border: 5px;
+    }
+
+    img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #houses {
+        padding: 10px;
+        margin: 10px;
+        border: 15px;
+    }
+
+}
