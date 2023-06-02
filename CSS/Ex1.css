@@ -1,0 +1,27 @@
+img {
+    width: 200px;
+    height: 300px;
+}
+.goat-ale {
+    object-fit: contain;
+}
+.propertys-container {
+    display: flex;
+    flex-direction: column;
+}
+.goat-ale-cover {
+    object-fit: cover;
+}
+.goat-ale-fill {
+    object-fit: fill;
+}   
+.goat-ale-none {
+    object-fit: none;
+}
+.goat-ale-scale-down {
+    object-fit: scale-down;
+}
+.goat-ale-position {
+    object-fit: cover;
+    object-position: 80% 100%;
+}

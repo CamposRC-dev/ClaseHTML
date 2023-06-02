@@ -1,0 +1,6 @@
+Esta función es util para el diseño de una pagina en forma de respetar los width y height 
+de un div.
+Evita a que al añadir padding o border este se sumen al tamaño del total deseado, 
+obligando que tu caja, a pesar de que tanto padding o border agregues, no sobrepase 
+tu tamaña inicial deseado.
+Esto ayuda al final al diseño de enmaquetado evitar deformaciones durante el proceso.
