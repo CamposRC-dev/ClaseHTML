@@ -1,0 +1,148 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(105, 4, 77, 0.986), rgba(172, 17, 134, 0.854), rgba(125, 3, 43, 0.986));
+}
+
+#nav-bar {
+    display: flex;
+    align-items: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(40, 14, 65, 0.607), rgb(101, 31, 231));
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+p {
+    padding: 2px;
+    margin: 0px;
+}
+
+h3 {
+    padding: 2px;
+    margin: 3px;
+    font-size: 30px;
+}
+
+.search {
+    color: rgba(35, 2, 24, 0.568);
+    width: 300px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.general {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#content-left {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 20px;
+}
+
+.logo {
+    margin: 10px;
+    box-shadow: 3px 3px 22px 0px rgba(8, 209, 102, 0.941);
+}
+
+.agenda {
+    background-color: black;
+    color: rgb(14, 219, 255);
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-style: inset;
+    border-color: rgb(252, 255, 254);
+}
+
+.monica {
+    height: 300px;
+    width: 200px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 650px;
+    margin: 10px;
+}
+
+.past-content {
+    background-color: black;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+h1 {
+    color: aqua;
+    font-family: Comic Sans MS;
+    text-shadow: 5px 5px 5px rgb(3, 225, 144);
+}
+
+.post {
+    background-color: rgb(53, 4, 103);
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+    font-family: Comic Sans MS;
+    box-shadow: 3px 3px 22px 0px rgba(0, 0, 0, 0.941);
+}
+
+.past {
+    height: 110px;
+    width: 100px;
+}
+
+.date {
+    text-align: justify;
+    width: 100px;
+    margin: 5px;
+    color: azure;
+}
+
+.feed {
+    width: 500px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 3px 3px 22px 0px rgba(0, 0, 0, 0.941);
+}
+
+
+#content-right {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 30px;
+}
+
+.fav {
+    height: 200px;
+    margin: 10px;
+}
+
+.text {
+    color: rgb(14, 219, 255);
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    align-items: center;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metrflog</title>
+
+    <link rel="stylesheet" href="./CSS/Clase6-Tarea.css">
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <div class="search-container">
+            <input class="search" placeholder="¿Qué estás haciendo?"></input>
+            <button class="button">Publicar</button>
+        </div>
+        <span>Mi muro</span>
+        <span>Mensajes</span>
+        <span>Firmas</span>
+        <button class="button">Cerrar sesion</button>
+    </nav>
+    <div class="general">
+        <div id="content-left">
+            <img class="logo"
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/774c14d7-308c-4108-aadd-487ec52dbf3d/d5683n9-2839e05d-1052-44f2-8198-911b7d5a4819.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3NGMxNGQ3LTMwOGMtNDEwOC1hYWRkLTQ4N2VjNTJkYmYzZFwvZDU2ODNuOS0yODM5ZTA1ZC0xMDUyLTQ0ZjItODE5OC05MTFiN2Q1YTQ4MTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.R4waqvp_L5v1WNH0CCu90czsIOFxXU7HYKyVn3Y6Vm4"
+                alt="">
+            <div class="agenda left">
+                <h3>2009</h3>
+                <p>Enero</p>
+                <p>Febrero</p>
+                <p>Marzo</p>
+                <p>Abril</p>
+                <p>Mayo</p>
+                <h3>2008</h3>
+                <p>Agosto</p>
+                <p>Septiembre</p>
+                <p>Octubre</p>
+            </div>
+
+            <div class="agenda">
+                <p>Monica Murillo</p>
+                <p>Quiere hablar contigo!!!</p>
+                <img src="https://www.debate.com.mx/__export/1607977913880/sites/debate/img/2020/12/14/asx_luce_mxnica_murillo_en_la_actualidadx_primer_influencer_de_metroflog_x2x.jpg_338974614.jpg"
+                    class="monica" alt="">
+            </div>
+
+        </div>
+
+        <div id="content">
+            <h1>R0kdrii Uzumaki</h1>
+            <span class="post">mii 4moor, te enam0r4ar4s de mi c0n un genyutsu, pero c0n my taijutsu m3 am4ras
+                x100pre</span>
+            <div class="past-content">
+                <div class="date">
+                    15/04/2009
+                    <img class="past" src="https://i.pinimg.com/originals/9b/1e/38/9b1e38ec616232cb3fde5944bedfcf00.jpg"
+                        alt="">
+                </div>
+                <div class="date">
+                    20/03/2009
+                    <img class="past" src="https://blogderandy.files.wordpress.com/2008/01/sensacionhouse.jpg?w=305"
+                        alt="">
+                </div>
+                <div class="date">
+                    01/03/2009
+                    <img class="past" src="https://pbs.twimg.com/media/FA3o-2cWUAQ6Vvx.png" alt="">
+                </div>
+                <div class="date">
+                    10/12/2008
+                    <img class="past"
+                        src="https://metroflog.nyc3.digitaloceanspaces.com/upload/photos/2020/03/xaLNjuI19iVhrbFXCCtN_24_2b88e0f92a9875cffe43874fa0a212d1_image.gif"
+                        alt="">
+                </div>
+            </div>
+            <div><img class="feed"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61e59dfd-ec83-4c11-a250-2bfe3b535d13/dbow3j7-f31df429-52af-4fae-9b73-b6be312d022e.jpg/v1/fill/w_900,h_1012,q_75,strp/emo_naruto__request__by_lorekingandrea_dbow3j7-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAxMiIsInBhdGgiOiJcL2ZcLzYxZTU5ZGZkLWVjODMtNGMxMS1hMjUwLTJiZmUzYjUzNWQxM1wvZGJvdzNqNy1mMzFkZjQyOS01MmFmLTRmYWUtOWI3My1iNmJlMzEyZDAyMmUuanBnIiwid2lkdGgiOiI8PTkwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19._YhxYYcTO-QC9CG93pMZ2FASkw45ZS9kbdgMRebzRDY"
+                    alt=""></div>
+        </div>
+        <div id="content-right">
+            <p class="text">Favoritos de R0kdrii xD</p>
+            <div class="text">
+                <img class="fav" src="https://pbs.twimg.com/profile_images/2385691829/bebecito_400x400.jpg" alt="">
+                <p>BBxit0 3moxiit0!!!</p>
+            </div>
+            <div class="text">
+                <img class="fav"
+                    src="https://www.sdpnoticias.com/resizer/Q6Zj4vIO-i2I0kcLD3GwDCftwTY=/640x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/sdpnoticias/F4BS4LP4CVAZJNBQSJ5UFYUKBE.jpg"
+                    alt="">
+                <p>p4melaa xhuu!!</p>
+            </div>
+        </div>
+
+    </div>
+</body>
